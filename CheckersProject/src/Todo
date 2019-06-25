@@ -1,0 +1,14 @@
+Done:
+x Create board
+x Understand codebase
+
+
+
+
+Todo:
+o Wrap board in "menu box"
+o Add 2 buttons next to board
+  - "New Game" and "Resign"
+o Add Player class
+  - Include an arrayList of pieces 
+o Add Pieces class
