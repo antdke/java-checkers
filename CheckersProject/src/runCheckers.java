@@ -11,6 +11,7 @@ public class runCheckers extends JFrame {
         CheckersBoard board = new CheckersBoard();
         add(board);
         setTitle("Checkers");
+        //size of the checker board is currently 400x400
         this.getContentPane().setPreferredSize(new Dimension(400, 400));
         this.pack();
         setDefaultCloseOperation(EXIT_ON_CLOSE);
@@ -18,7 +19,7 @@ public class runCheckers extends JFrame {
         setResizable(false);
     }
     public static void main(String[] args) {
-
+        //not 100% sure what EventQueue does but I saw it online
         EventQueue.invokeLater(() -> {
 
             runCheckers game = new runCheckers();
