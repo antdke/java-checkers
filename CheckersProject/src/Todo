@@ -5,10 +5,17 @@ x Understand codebase
 
 
 
-Todo:
+TODO:
+
 o Wrap board in "menu box"
-o Add 2 buttons next to board
-  - "New Game" and "Resign"
+o MenuBox
+ 1) Whole panel
+ 2) Empty square space on left side
+ 3) divider?
+ 4) 3 buttons on right side
+ 5) text area at the button
+
+
 o Add Player class
   - Include an arrayList of pieces 
 o Add Pieces class
